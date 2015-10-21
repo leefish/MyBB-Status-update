@@ -1,0 +1,22 @@
+﻿/*********************************************************************************************************
+*
+*  Status update (install.txt)
+*  Author: Krzysztof "Supryk" Supryczyński
+*  Copyright: 2013 - 2015 @ Krzysztof "Supryk" Supryczyński @ All rights reserved
+*  
+*  Website: http://polish-zone.pl/
+*  Description: User status update like IP.Board.
+*
+*********************************************************************************************************/
+ 
+[EN]
+Place the files on the server
+Install standard
+Configure
+In the side panel of your index template add variable {$statusupdate}
+
+[PL]
+Umieść pliki na serwerze
+Zainstaluj standardowo
+Skonfiguruj
+Do panelu bocznego, szablonu index, dodaj zmienna {$statusupdate}
