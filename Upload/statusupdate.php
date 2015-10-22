@@ -97,6 +97,8 @@ if($mybb->input['action'] == "do_add_comment_statusupdate"  && $mybb->request_me
 	$db->update_query("statusupdate", $status, "sid='".$mybb->get_input('sid', 1)."'");
 		
 	redirect("index.php", $lang->statusupdate_comment_added);
+}else {
+	redirect("index.php");
 }
 
 if(!$mybb->input['action'])
